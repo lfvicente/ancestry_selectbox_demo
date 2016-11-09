@@ -12,12 +12,11 @@
 		<% i=i+1 %>
 	<% end %>
 	<li>
-		<%= category.name_for_tree %> 
-		<%= link_to 'Ver', category %>
-		<%= link_to 'Editar', edit_category_path(category) %>
+		<a><%= category.name_for_tree %></a> 
+		
 	</li>
 <% end %>
-
+</div>
 
 <script type="text/javascript">
 	$( document ).ready( function( ) {
