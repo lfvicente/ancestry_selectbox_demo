@@ -12,7 +12,7 @@
 		<% i=i+1 %>
 	<% end %>
 	<li>
-		<a><%= category.name_for_tree %></a> 
+		<a><%= category.name_for_tree %>||<%= category.ancestry %>||<%= category.parent_id %>||<%= category.id %></a> 
 		
 	</li>
 <% end %>
